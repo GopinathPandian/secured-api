@@ -1,0 +1,16 @@
+{
+  "name": "mark-one",
+  "version": "1.0.0",
+  "description": "Simple secured API",
+  "main": "mark_one.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
