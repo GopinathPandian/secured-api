@@ -4,10 +4,11 @@ var app = express();
 var jwt    = require('jsonwebtoken');
 
 var secret = "BrickbyBrick";
+var port = process.env.PORT || 8080;
 // const key = "2b7e151628aed2a6abf7158809cf4f3c"
 app.use(express.static('.'));
-http.createServer(app).listen(7000);
-console.log('Server listening at port 7000');
+http.createServer(app).listen(port);
+console.log('Server listening at port ', port);
 app.set('Secret', secret);
 
 app.use(express.json());
